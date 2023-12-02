@@ -8,23 +8,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
 
     <nav id="desktop-nav">
-        <div class="logo">John Doe</div>
+        <div class="logo">Santiago Forigua</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experience">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    
+
     <nav id="hamburger-nav">
         <div class="logo">John Doe</div>
         <div class="hamburger-menu">
@@ -45,12 +54,12 @@
 
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+            <img src="./assets/perfil.png" alt="John Doe profile picture" />
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">John Doe</h1>
-            <p class="section__text__p2">Frontend Developer</p>
+            <p class="section__text__p1">Hola, soy</p>
+            <h1 class="title">Santiago</h1>
+            <p class="section__text__p2">web developer full-stack</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
                     Download CV
@@ -63,42 +72,49 @@
                 <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
                     onclick="location.href='https://linkedin.com/'" />
                 <img src="./assets/github.png" alt="My Github profile" class="icon"
-                    onclick="location.href='https://github.com/'" />
+                    onclick="window.open('https://github.com/santi2703?tab=repositories', '_blank')">
             </div>
         </div>
     </section>
 
 
     <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
+        <p class="section__text__p1">Conoce más</p>
+        <h1 class="title">Acerca de mí</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+                <img src="./assets/about.jpg" alt="Profile picture" class="about-pic" />
             </div>
             <div class="about-details-container">
+                <div class="text-container">
+                    <p>
+
+                        Comencé a explorar la programación por un tema de curiosidad. A medida que aprendía nuevos
+                        conceptos y observaba cómo se conectaban entre sí, me di cuenta del potencial creativo que había
+                        detrás. Esta perspectiva me llevó a verla como una profesión increíblemente amplia y desafiante,
+                        repleta de oportunidades para crear soluciones innovadoras y funcionales.
+                    </p>
+                    <br>
+                    <p>
+                        Mi compromiso con el aprendizaje continuo se traduce en una disposición para abordar y aprender
+                        cualquier tecnología que la empresa necesite. Estoy emocionado por la oportunidad de contribuir
+                        con mis habilidades y conocimientos a un equipo profesional.
+                    </p>
+                </div>
+
                 <div class="about-containers">
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-                        <h3>Experience</h3>
-                        <p>2+ years <br />Frontend Development</p>
+                        <h3>Education</h3>
+                        <p>The Web Developer Bootcamp <br />2023</p>
                     </div>
                     <div class="details-container">
                         <img src="./assets/education.png" alt="Education icon" class="icon" />
                         <h3>Education</h3>
-                        <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+                        <p>JavaScript Algorithms and Data Structures <br /> </p>
                     </div>
                 </div>
-                <div class="text-container">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                        reprehenderit et laborum, rem, dolore eum quod voluptate
-                        exercitationem nobis, nihil esse debitis maxime facere minus sint
-                        delectus velit in eos quo officiis explicabo deleniti dignissimos.
-                        Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-                        reiciendis ea magnam? Nulla, impedit fuga!
-                    </p>
-                </div>
+
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
@@ -106,88 +122,93 @@
 
 
     <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <p class="section__text__p1">Explora Mi</p>
+        <h1 class="title">Ruta de aprendizaje </h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
                     <h2 class="experience-sub-title">Frontend Development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+
+                            <img src="./assets/html.png" alt="Experience icon" class="icon" />
                             <div>
                                 <h3>HTML</h3>
-                                <p>Experienced</p>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="./assets/css.png" alt="Experience icon" class="icon" />
                             <div>
                                 <h3>CSS</h3>
-                                <p>Experienced</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>SASS</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="./assets/js.png" alt="Experience icon" class="icon" />
                             <div>
                                 <h3>JavaScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>TypeScript</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Material UI</h3>
                                 <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/bootstrap.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/ejs.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Ejs</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/react.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React</h3>
+                                <p>Basic</p>
                             </div>
                         </article>
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="experience-sub-title">Backend Development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="./assets/node.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>PostgreSQL</h3>
+                                <h3>Node</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="./assets/express.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>Node JS</h3>
+                                <h3>Express</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
+
                         <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="./assets/mongoose.png" alt="Experience icon" class="icon"
+                                style=" height: 40px;" />
                             <div>
-                                <h3>Express JS</h3>
+                                <h3>Mongoose</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
+
                         <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="./assets/mongodb.png" alt="Experience icon" class="icon" />
                             <div>
-                                <h3>Git</h3>
+                                <h3>MongoDB</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
+
                     </div>
                 </div>
             </div>
@@ -197,39 +218,47 @@
 
 
     <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
+        <p class="section__text__p1">Explorar mis recientes</p>
+        <h1 class="title">Proyectos</h1>
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                        <img src="./Assets/laundry.png" alt="Project 1" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h2 class="experience-sub-title project-title">Lavanderia Web-App</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://fori-wash.cyclic.app/', '_blank')">
                             Live Demo
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/santi2703/laundry-webApp', '_blank')">
+                            Github
                         </button>
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+                        <img src="./assets/YelpCamp.png" alt="Project 2" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <h2 class="experience-sub-title project-title">YelpCamp web-App</h2>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://yelp-camp-7le9.onrender.com',  '_blank')">
                             Live Demo
+                        </button>
+
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/santi2703/YelpCamp' , '_blank')">
+                            Github
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <!-- <div class="details-container color-container">
                     <div class="article-container">
                         <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
                     </div>
@@ -242,7 +271,7 @@
                             Live Demo
                         </button>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
@@ -250,12 +279,12 @@
 
 
     <section id="contact">
-        <p class="section__text__p1">Get in Touch</p>
-        <h1 class="title">Contact Me</h1>
+        <p class="section__text__p1">Ponerte en contacto</p>
+        <h1 class="title">Información</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+                <p><a href="mailto:santifor2003@gmail.com">santifor2003@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
@@ -276,7 +305,7 @@
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+        <p>Copyright &#169; 2023 Santiago forigua. </p>
     </footer>
 
 
